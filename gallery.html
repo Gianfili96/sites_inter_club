@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="it">
+ <head>
+
+    <title>INTER CLUB | GALLERY</title>
+    <link rel="stylesheet" href="stile.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="La nostra gallery ufficiale dei nostri eventi esclusivi Inter Club">
+    <meta HTTP-EQUIV="keywords" content="Inter Club Palermo, inter, foto, trasferte, feste, eventi, stadio">
+    <meta name="copyright" content="icfratellidelmondo.it">
+    <meta name="author" content="Gianpiero Filippone">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+ </head>
+
+ <body>
+    
+  <header class="header">
+    <div class="header__content">
+       <a href="index.html" class="header_logo"><img src="images/inter20.svg" alt="" width="150" height="65"></a>
+       
+ 
+       <div class="header__menu">
+        <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="chi-siamo.html">CHI SIAMO</a></li>
+         <li><a href="contatti.html">CONTATTI</a></li>
+         <li><a href="gallery.html">GALLERY</a></li>
+         <li><a href="https://www.inter.it/it/tessera_siamo_noi" target="_blank">TESSERA SIAMO NOI</a></li>
+         <li><a href="https://www.cicsicilia.it/" target="_blank">CIC SICILIA</a></li>
+        </ul>
+       </div>
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9yCyFMcjZ58N4JQ_UzvA7QjQvrWMhboG3DS47CPqPHhugiA/viewform?embedded=true" class="button" target="_blank">ISCRIVITI</a>
+
+                   
+         <div class="icon-hamburger">
+           <span></span>
+           <span></span>
+         </div>
+               
+       
+     </div>
+ </header>
+
+      <main class="container">
+
+
+        <div class="grid">
+
+          <div class="col-100_gallery">
+  
+            <h1 class="reveal">FOTO GALLERY</h1>
+            <h2 class="reveal">LA NOSTRA VITA DA INTER CLUB RACCHIUSA NELLE IMMAGINI</h2>
+            
+  
+          </div>
+  
+        </div>
+
+
+
+          <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 5</div>
+              <img src="slide/1.jpg" style="width:100%">
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 5</div>
+              <img src="slide/2.jpg" style="width:100%">
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 5</div>
+              <img src="slide/3.jpg" style="width:100%">
+              
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="slide/4.jpg" style="width:100%">
+                
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="slide/5.jpg" style="width:100%">
+                
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="slide/6.jpg" style="width:100%">
+                
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="slide/7.jpg" style="width:100%">
+                
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="slide/8.jpg" style="width:100%">
+                
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="slide/9.jpg" style="width:100%">
+                
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="slide/10.jpg" style="width:100%">
+                
+              </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span> 
+              <span class="dot" onclick="currentSlide(5)"></span> 
+              <span class="dot" onclick="currentSlide(6)"></span> 
+              <span class="dot" onclick="currentSlide(7)"></span> 
+              <span class="dot" onclick="currentSlide(8)"></span>
+              <span class="dot" onclick="currentSlide(9)"></span> 
+              <span class="dot" onclick="currentSlide(10)"></span> 
+            </div>
+            
+
+
+
+
+
+
+
+      </main>
+
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+      
+
+      <footer>
+       
+        <div class="col-25">
+
+            <img src="images/logo-inter.png" alt="" class="logo_footer">
+
+        </div>
+
+        <div class="col-25">
+           
+            <h4>MENU</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chi-siamo.html">Chi siamo</a></li>
+                <li><a href="contatti.html">Contatti</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe9yCyFMcjZ58N4JQ_UzvA7QjQvrWMhboG3DS47CPqPHhugiA/viewform?embedded=true" target="_blank">ISCRIZIONI</a></li>
+                <li><a href="https://www.inter.it/it/tessera_siamo_noi" target="_blank">Tessera siamo noi</a></li>
+                <li><a href="https://www.cicsicilia.it/" target="_blank">Cic Sicilia</a></li>
+            </ul>
+
+        </div>
+
+        <div class="col-25">
+
+            <h4>SOCIAL MEDIA</h4>
+
+            <a href="https://www.facebook.com/icfratellidelmondo"><img src="images/facebook.png" alt="facebook" class="social-icon"></a>
+            <a href="https://www.instagram.com/icfratellidelmondo/"><img src="images/instagram.png" alt="instagram" class="social-icon"></a>
+            <a href="mailto:icfratellidelmondo@gmail.com"><img src="images/social.png" alt="email" class="social-icon"></a>
+            <a href="https://wa.me/393663301137"><img src="images/whatsapp.png" alt="whatsapp" class="social-icon"></a>
+            
+            <h4>CANALI INFORMAZIONI</h4>
+            <ul>
+              <li><a href="">InterFanTV</a></li>
+              <li><a href="">Inter.it</a></li>
+              <li><a href="">Biapri</a></li>
+            </ul>
+
+        </div>
+
+        <div class="col-25">
+
+            <p class="p-left">
+                INTER CLUB FRATELLI DEL MONDO - sez. Palermo Copyright © 2018 — 2024 Affiliato ufficialmente con F.C. Internazionale Milano C.F. 97336260829
+            </p>
+
+            <p class="p-left">WebDesign & Development site web: <br> Filippone Gianpiero</p>
+
+        </div>
+       
+   
+      </footer>
+
+
+      <script>
+
+
+        let hamburger = document.querySelector('.icon-hamburger');
+        
+        hamburger.addEventListener("click", function() {
+          document.body.classList.toggle('menu-open');
+          });
+        
+        
+
+          ScrollReveal().reveal('.reveal', {distance: '60px', duration: 2000 });
+        
+        </script>
+
+
+
+
+ </body>
+
+
+
+
+
+
+</html>
