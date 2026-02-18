@@ -1,0 +1,8 @@
+function login(username, password) {
+    // Simulate a login process
+    if (username === 'admin' && password === 'password') {
+        return 'Login successful!';
+    } else {
+        return 'Login failed. Please check your credentials.';
+    }
+}
